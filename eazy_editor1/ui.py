@@ -12,6 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(794, 602)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.files_list = QtWidgets.QListWidget(parent=self.centralwidget)
@@ -42,11 +43,11 @@ class Ui_MainWindow(object):
         self.bw_btn.setObjectName("bw_btn")
         self.horizontalLayout.addWidget(self.bw_btn)
         self.photo_lb = QtWidgets.QLabel(parent=self.centralwidget)
-        self.photo_lb.setGeometry(QtCore.QRect(250, 240, 47, 13))
+        self.photo_lb.setGeometry(QtCore.QRect(240, 10, 541, 451))
         self.photo_lb.setObjectName("photo_lb")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 762, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 794, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)

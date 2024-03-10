@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>602</height>
+   </rect>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
@@ -79,10 +87,10 @@
    <widget class="QLabel" name="photo_lb">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>240</y>
-      <width>47</width>
-      <height>13</height>
+      <x>240</x>
+      <y>10</y>
+      <width>541</width>
+      <height>451</height>
      </rect>
     </property>
     <property name="text">
@@ -95,7 +103,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>762</width>
+     <width>794</width>
      <height>21</height>
     </rect>
    </property>
